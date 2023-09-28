@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Me</title>
+    <link rel="stylesheet" type="text/css" href="css.css">
+    <script src="java.js"></script>
+    
+</head>
+<body>
+    
+
+    <header class="header">
+        <nav class="nav">
+          <div class= "option">
+            <a href="Home.html">Home </a>
+            <a href="About.html"><u>About me </u></a>
+            <a href="Service.html">Service </a>
+            <a href="https://prasiddha155848731.wordpress.com/">Blog </a>
+            <a href="skills.html">Skills </a>
+            <a href="Contact.html">Contact </a>
+            </div>
+        </nav>
+    </header>
+    <div class="port1"><u>About&nbsp;<b class="folio1">Me</u></b></div>
+    <div class="And1">I'm Prasiddha & I'm a  <span  id="container"><div id="text"></div><div id="cursor"></div></span></div>
+    <div class="about"><p><div class="who"><i>----Who I Am----</i></div>Mainly I am Software Developer and i am very passsionate and dedicated to my work with 1 years ence as a professional software developer. I have acquired the skills and knowledge necessary to make your project a sucess. I enjoy every step of developing part from discussion and collaboration to concept and excution, but I find the most tion in seeing the finished product do every thing for you that it was created to do.</p></div>
+
+
+    <button class="learn"><a href="https://www.linkedin.com/in/prasiddha-regmi-693763211/">Learn More</a></button>
+
+
+<script>
+   var _CONTENT = [ 
+"Web Designer", 
+"Software Developer", 
+"Android Developer", 
+"Hacker"
+];
+var _PART = 0;
+var _PART_INDEX = 0;
+var _INTERVAL_VAL;
+var _ELEMENT = document.querySelector("#text");
+var _CURSOR = document.querySelector("#cursor");
+function Type() { 
+var text =  _CONTENT[_PART].substring(0, _PART_INDEX + 1);
+_ELEMENT.innerHTML = text;
+_PART_INDEX++;
+if(text === _CONTENT[_PART]) {
+ _CURSOR.style.display = 'none';
+  clearInterval(_INTERVAL_VAL);
+ setTimeout(function() {
+   _INTERVAL_VAL = setInterval(Delete, 50);
+ }, 1000);
+}
+}
+function Delete() {
+var text =  _CONTENT[_PART].substring(0, _PART_INDEX - 1);
+_ELEMENT.innerHTML = text;
+_PART_INDEX--;
+if(text === '') {
+ clearInterval(_INTERVAL_VAL);
+ if(_PART == (_CONTENT.length - 1))
+   _PART = 0;
+ else
+   _PART++;
+ 
+ _PART_INDEX = 0;
+ setTimeout(function() {
+   _CURSOR.style.display = 'inline-block';
+   _INTERVAL_VAL = setInterval(Type, 100);
+ }, 200);
+}
+}
+_INTERVAL_VAL = setInterval(Type, 100);
+ 
+</script>
+<div id="snowflakeContainer"><span class="snowflake"></span></div>  
+    </body>
+    </html>

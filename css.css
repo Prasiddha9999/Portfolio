@@ -1,0 +1,477 @@
+
+.header{
+        font-size: medium;}
+        .nav{
+        color:rgb(252, 244, 244);
+        font-size: 25px;
+        height: 100%;
+        padding: 25px;
+        font-weight: 700;
+        background-size: 100%;
+        margin-top: 10px;
+        margin-left:380px;
+        font-family: 'Ubuntu', sans-serif;
+        }
+        .option a:hover{
+            background-color: #fff;
+            color: rgb(24, 80, 236);
+            box-shadow: 0 0 10px rgb(39, 83, 228);
+            padding: 5px;
+        }
+        .button a:hover{
+            background-color: rgb(241, 10, 79);
+            color: rgb(238, 235, 247);
+            box-shadow: 0 0 10px rgb(255, 9, 62);
+            padding:3px;
+            border-radius: 5px;
+        }
+      
+        
+        a:link {
+         color: rgb(242, 248, 242);
+         background-color: transparent;
+         text-decoration: none;
+
+    }
+    .nav a{
+        margin: 15px;
+        
+    }
+    
+   
+    .first{
+        margin-top: 120px;
+        margin-left: 80px;
+        font-size: 35px;
+        font-weight:200;
+        color:rgb(235, 238, 238);
+        font-family: 'Ubuntu', sans-serif;
+    }
+    .Int{
+        margin-top: 10px;
+        margin-left: 80px;
+        font-size: 100px;
+        font-weight:800;
+        color:rgb(242, 245, 247);
+        font-family: 'Ubuntu', sans-serif;
+    }
+    .And{
+        margin-top: 10px;
+        margin-left: 80px;
+        font-size: 45px;
+        font-weight:700;
+        color:rgb(250, 248, 248);
+        font-family: 'Ubuntu', sans-serif;
+        
+    }
+
+    body  {
+  background-image: url(back.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-position:right;
+  
+}
+.button {
+  background-color: #b12121;
+  border: red;
+  color: white;
+  padding-left: 25px 27px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  margin-left: 80px;
+  margin-top: 30px;
+  cursor: pointer;
+  font-size: 25px;
+  border-radius: 5px;
+  font-family: 'Ubuntu', sans-serif;
+}
+.button a{
+  color: rgb(238, 235, 247);
+}
+.port{
+
+ margin-top: 30px;
+        margin-left: 70px;
+        font-size: 30px;
+        font-weight:800;
+        color:rgb(250, 248, 248);
+        font-family: 'Ubuntu', sans-serif;
+}
+.folio{
+    margin-top: 30px;
+        margin-left: 0px;
+        font-size: 30px;
+        font-weight:800;
+        color:rgb(238, 17, 17);
+        font-family: 'Ubuntu', sans-serif;
+
+}
+
+    .mySlides {
+    display:none;
+    float: right;
+    margin-top: 80px;
+    margin-left: -2000px;
+    margin-right: -1050px;
+    border-radius:10px ;
+    border:groove;
+    width: 188px;
+  height: 600px;
+
+}
+
+#snowflakeContainer {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    display: none;
+  }
+
+  .snowflake {
+    position: fixed;
+    background-color: #CCC;
+    user-select: none;
+    z-index: 1000;
+    pointer-events: none;
+    border-radius: 50%;
+    width: 10px;
+    height: 10px;
+  }
+  .bio {
+  background-color: DodgerBlue;
+  border: none;
+  color: rgb(238, 235, 247);
+  padding: 6px 15px;
+  cursor: pointer;
+  font-size: 27px;
+  margin-top: 100px;
+  margin-left: 630px;
+  border: whitesmoke;
+  border-radius: 3%;
+  text-decoration: none;
+
+  
+}
+.bio a{
+  color: rgb(238, 235, 247);
+}
+  .nav a{
+    color: rgb(238, 235, 247);
+}
+
+.bio a:hover{
+            background-color: rgb(49, 122, 231);
+            color: rgb(238, 235, 247);
+            border-radius: 3px;
+            padding: 3px 1px;
+}
+#container {
+	text-align: center;
+}
+
+#text {
+	display: inline-block;
+	color: rgb(247, 14, 14);
+	letter-spacing: 4px;
+}
+
+#cursor {
+	display: inline-block;
+	vertical-align: middle;
+	width: 5px;
+	height: 30px;
+	background-color: rgb(236, 6, 6);
+	animation: blink .75s step-end infinite;
+}
+
+@keyframes blink {
+	from, to { 
+		background-color: transparent 
+	}
+	50% { 
+		background-color: rgb(247, 9, 41); 
+	}
+}
+.port1{
+
+  margin-top: 20px;
+         margin-left: 70px;
+         font-size: 50px;
+         font-weight:600;
+         color:rgb(250, 248, 248);
+         font-family: 'Ubuntu', sans-serif;
+        
+ }
+ .folio1{
+     margin-top: 20px;
+         margin-left: 0px;
+         font-size: 50px;
+         font-weight:600;
+         color:rgb(238, 17, 17);
+         font-family: 'Ubuntu', sans-serif;
+ 
+ }
+ .And1{
+  margin-top: 80px;
+  margin-left: 80px;
+  font-size: 30px;
+  font-weight:600;
+  color:rgb(250, 248, 248);
+  font-family: 'Ubuntu', sans-serif;
+ }
+ .learn {
+  background-color: DodgerBlue;
+  border: none;
+  color: rgb(238, 235, 247);
+  padding: 6px 15px;
+  cursor: pointer;
+  font-size: 27px;
+  margin-top: 70px;
+  margin-left: 440px;
+  border: whitesmoke;
+  border-radius: 3%;
+  text-decoration: none;
+
+  
+}
+.learn a{
+  color: rgb(238, 235, 247);
+}
+  .learn a{
+    color: rgb(238, 235, 247);
+  }
+    .learn a:hover{
+      background-color: rgb(49, 122, 231);
+      color: rgb(238, 235, 247);
+      border-radius: 3px;
+      padding: 3px 1px;
+}
+.about{
+  margin-top: 30px;
+  margin-left: 80px;
+  font-size: 30px;
+  margin-right: 550px;
+  font-weight:500;
+  color:rgb(250, 248, 248);
+
+  text-align: justify;
+  border: groove;
+  border-radius: 10px;
+  padding:20px;
+  padding-top:0%;
+  padding-bottom: 0%;
+  font-family: 'Brush Script MT', cursive;
+}
+.who{
+   font-family: 'Ubuntu', sans-serif;
+   text-align: center;
+   font-weight:500;
+   font-size: 30px;
+   color:rgb(7, 169, 233);
+}
+* {box-sizing: border-box}
+
+.containerr {
+  width: 40%;
+  background-color: #ddd;
+  color:whitesmoke;
+  border-radius: 10px;
+}
+
+.skills {
+  padding-left:80px;
+
+  margin-top:13px;
+  margin-bottom: 25px;
+  color: white;
+  font-size:20px;
+  font-family: 'Ubuntu', sans-serif;
+}
+.skil{
+  padding-top:40px;
+}
+.html {width: 90%; background-color: #04AA6D;}
+.css {width: 80%; background-color: #2196F3;}
+.js {width: 72%; background-color: #f44336;}
+.php {width: 65%; background-color: #0fdcf7;}
+.hard {width: 63%; background-color: #808080;}
+.free{
+ padding-top:40px;
+  font-size:35px;
+  font-weight:600;
+  text-align:center;
+  font-family: 'Ubuntu', sans-serif;
+
+}
+.minibox{
+  border:white groove;
+  display:grid;
+  color:rgb(8, 0, 0);
+  font: 25;
+  float:left;
+  margin:10px;
+  width:300px;
+  text-align: center;
+  font-size:25px;
+  border-radius: 10px;
+  margin-top: 20px;
+  background-color: #e1e7ec;
+  font-family: 'Ubuntu', sans-serif;
+  font-weight:300;
+  
+  
+}
+.mini{
+  border: rgb(6, 223, 252) groove;
+  display:grid;
+ color:rgb(201, 20, 20);
+  font: 25;
+  float:left;
+  margin:-30px;
+  margin-top: 80px;
+  width:323px;
+  text-align: center;
+  font-size:25px;
+  border-radius: 10px;
+  margin-left:60px;
+  font-family: 'Ubuntu', sans-serif;
+  background-color: rgb(52, 147, 236);
+  font-weight:600;
+}
+ .minibox :hover{
+    background-color: rgb(4, 99, 241);
+    color: rgb(238, 235, 247);
+    border-radius: 12px;
+    
+
+ 
+}
+.Heading{
+  color:rgb(250, 250, 250);
+  font-size:35px;
+  font-family: 'Ubuntu', sans-serif;
+}
+.boxs{
+  background-color: rgb(61, 179, 202);
+}
+
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  margin-top: 0px;
+  margin-bottom: 16px;
+  resize: vertical;
+  font-family: 'Ubuntu', sans-serif;
+
+}
+
+input[type=submit] {
+  background-color: #2171e9;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  font-family: 'Ubuntu', sans-serif;
+}
+
+input[type=submit]:hover {
+  background-color: #0f1cd6;
+  font-family: 'Ubuntu', sans-serif;
+  border: solid red;
+}
+
+
+.column {
+  float: left;
+  width: 550px;
+  margin-top: 6px;
+  padding: 20px;
+  padding-left: 70px;
+  color:whitesmoke;
+  font-size:20px;
+  font-family: 'Ubuntu', sans-serif;
+} 
+
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+  font-family: 'Ubuntu', sans-serif;
+}
+.call{
+  padding-left: 600px;
+  padding-top:450px;
+}
+.call a{
+  margin:5px;
+}
+.linked{
+  width:30px;
+  height:30px;
+}
+.linked:hover{
+  width:30px;
+  height:30px;
+  transform: scale(1.5);
+
+}
+.gmail{
+  width:30px;
+  height:30px;
+}
+.gmail:hover{
+  width:30px;
+  height:30px;
+  transform: scale(1.5);
+
+}
+
+.viber{
+  width:30px;
+  height:30px;
+}
+.viber:hover{
+  width:30px;
+  height:30px;
+  transform: scale(1.5);
+
+}
+
+.faceb{
+  width:30px;
+  height:30px;
+}
+.faceb:hover{
+  width:30px;
+  height:30px;
+  transform: scale(1.5);
+
+}
+
+.youtube{
+  width:30px;
+  height:30px;
+}
+.youtube:hover{
+  width:30px;
+  height:30px;
+  transform: scale(1.5);
+
+}
+.loader{
+  position: fixed;
+  left:0px;
+  top:0px;
+  width:100%;
+  height:100%;
+  z-index: 9999;
+  background: url(loader.gif) 50% 50% no-repeat rgb(249,249,249);
+  /* background-image: url(lode.jpg); */
+  background-color:#00020e
+}

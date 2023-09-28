@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Porfolio</title>
+    <link rel="stylesheet" type="text/css" href="css.css">
+    <script src="java.js"></script>
+    <script src="js1.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+</head>
+<body>
+  <script>
+    $('document').ready(function(e) {
+    $(".loader").fadeOut(6000);
+});
+  </script>
+  <div class="loader"></div>
+    <div class="main">
+    <header class="header">
+        <nav class="nav">
+          <div class= "option">
+            <a href="Home.html">Home </a>
+            <a href="About.html">About me </a>
+            <a href="Service.html">Service </a>
+            <a href="https://prasiddha155848731.wordpress.com/">Blog </a>
+            <a href="skills.html">Skills </a>
+            <a href="Contact.html">Contact </a>
+            </div>
+        </nav>
+    </header>
+    <div class="port">PORT<b class="folio">FOLIO.</b></div>
+    <div class="first">Hello, it's me</div>
+    <div class="Int"><i>Prasiddha Regmi</i></div>
+    <div class="And">And, I am a  <span  id="container"><div id="text"></div><div id="cursor"></div></span></div>
+
+    <button class="button"><a href="https://www.linkedin.com/in/prasiddha-regmi-693763211/">Hire Me</a></button>
+
+    <div><button class="bio"><a href="Prasiddha-Regmi_Resume.png" download> Download Resume</a></button></div>
+  
+      <div id="snowflakeContainer"><span class="snowflake"></span></div>
+
+
+
+       <script>
+         
+var _CONTENT = [ 
+"Web Designer", 
+"Software Developer", 
+"Android Developer", 
+"Hacker"
+];
+var _PART = 0;
+var _PART_INDEX = 0;
+var _INTERVAL_VAL;
+var _ELEMENT = document.querySelector("#text");
+var _CURSOR = document.querySelector("#cursor");
+function Type() { 
+var text =  _CONTENT[_PART].substring(0, _PART_INDEX + 1);
+_ELEMENT.innerHTML = text;
+_PART_INDEX++;
+if(text === _CONTENT[_PART]) {
+ _CURSOR.style.display = 'none';
+  clearInterval(_INTERVAL_VAL);
+ setTimeout(function() {
+   _INTERVAL_VAL = setInterval(Delete, 50);
+ }, 1000);
+}
+}
+function Delete() {
+var text =  _CONTENT[_PART].substring(0, _PART_INDEX - 1);
+_ELEMENT.innerHTML = text;
+_PART_INDEX--;
+if(text === '') {
+ clearInterval(_INTERVAL_VAL);
+ if(_PART == (_CONTENT.length - 1))
+   _PART = 0;
+ else
+   _PART++;
+ 
+ _PART_INDEX = 0;
+ setTimeout(function() {
+   _CURSOR.style.display = 'inline-block';
+   _INTERVAL_VAL = setInterval(Type, 100);
+ }, 200);
+}
+}
+_INTERVAL_VAL = setInterval(Type, 100);
+
+       </script>
+
+
+
+</body>
+</html>
